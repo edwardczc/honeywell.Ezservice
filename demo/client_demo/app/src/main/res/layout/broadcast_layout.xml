@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/switch_way1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:text="switch to aidl way"/>
+    <Button
+        android:id="@+id/reboot_device1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="reboot device"/>
+    <Button
+        android:id="@+id/poweroff_device1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="poweroff device"/>
+    <Button
+        android:id="@+id/scan_settings1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="scan settings"/>
+    <Button
+        android:id="@+id/get_sn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="get sn"/>
+    <Button
+        android:id="@+id/set_system_time1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="set system time"/>
+    <Button
+        android:id="@+id/set_statusbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="diable statubar"/>
+    <Button
+        android:id="@+id/enable_homekey1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="diable homekey"/>
+    <Button
+        android:id="@+id/enable_usb_debug1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="enable usb debug"/>
+    <Button
+        android:id="@+id/silent_install1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="silent install"/>
+    <Button
+        android:id="@+id/silent_uninstall1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="silent uninstall"/>
+</LinearLayout>
+
+</ScrollView>
